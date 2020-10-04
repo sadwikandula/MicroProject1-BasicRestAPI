@@ -1,0 +1,64 @@
+> use hospitalManagement
+switched to db hospitalManagement
+> db.Hospital.find().pretty()
+{
+        "_id" : ObjectId("5f76edebc333d11cbf529aa6"),
+        "hId" : "H1",
+        "name" : "Apollo Hospitals",
+        "location" : "17.398644, 78.484334",
+        "address" : "Plot No. 3-5-874/1, Ols MLA Quarters Rd, Hyderabad,Telangana 500029",
+        "contactNo" : "040-23231380"
+}
+{
+        "_id" : ObjectId("5f78390f918bbf559bb8a123"),
+        "hId" : "H2",
+        "name" : "Yashoda Hospitals",
+        "location" : "17.398644, 78.484334",
+        "address" : "secunderabad",
+        "contact no" : "040-27581631"
+}
+{
+        "_id" : ObjectId("5f7a083a7db643e9385e7362"),
+        "hId" : "H3",
+        "name" : "Omega Hospitals",
+        "location" : "17.398644, 78.484334",
+        "address" : "Jubilee Hills",
+        "contact no" : "040-27585551"
+}
+{
+        "_id" : ObjectId("5f7a099f70a20ba4dfa25e40"),
+        "hId" : "H4",
+        "name" : "Gandhi Hospitals",
+        "location" : "17.398644, 78.484334",
+        "address" : "secunderabad",
+        "contact no" : "040-25778631"
+}
+> db.Ventilators.find().pretty()
+{
+        "_id" : ObjectId("5f76ee96c333d11cbf529aa7"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V5",
+        "status" : "available",
+        "name" : "Apollo Hospitals"
+}
+{
+        "_id" : ObjectId("5f783bbdf86e9eb5d382432e"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V5",
+        "status" : "occupied",
+        "name" : "Yashoda Hospitals"
+}
+{
+        "_id" : ObjectId("5f7a09af1a9c721c1868cdfe"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V5",
+        "status" : "occupied",
+        "name" : "Omega Hospitals"
+}
+{
+        "_id" : ObjectId("5f7a09bc193279d5d4bc49d4"),
+        "hId" : "H4",
+        "ventilatorId" : "H4V5",
+        "status" : "available",
+        "name" : "Gandhi Hospitals"
+}
